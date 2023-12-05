@@ -9,7 +9,7 @@ This is CLIP finetune prototype for image Classification task.
 - [Stanford Dogs dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/)
 
 | Model | Head | Pretrain | class | accuracy |
-| :---         |     :---:      |     :---:      |     :---:      |     :---:      |         ---: |
+| :---         |     :---:      |     :---:      |     :---:      |        ---: |
 | resnext50d_32x4d(timm) | fc | imageNet |69|74.09%|
 | CLIP-finetune | None | CLIP |69|90.42%|
 
