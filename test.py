@@ -55,5 +55,5 @@ class Predictor(BasePredictor):
         latency = time.time() - start
         print(f'Prediction Latency: {latency}') 
         # cm
-        brand_name = [str(i) for i in range(10)]
-        create_cofusion_matrix(y_test, y_pred, target_names=brand_name, filename=main_label_dir)
+        class_name = [str(i) for i in range(10)]
+        create_cofusion_matrix(y_test, y_pred, target_names=class_name, filename=main_label_dir)
