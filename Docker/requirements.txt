@@ -1,0 +1,16 @@
+matplotlib
+opencv-python
+torchsummary
+tqdm
+pandas
+seaborn
+easydict 
+tensorflow
+tensorboardX
+scikit-learn
+efficientnet-pytorch
+timm
+flake8
+albumentations
+mxnet-mkl==1.6.0
+numpy==1.23.1 
