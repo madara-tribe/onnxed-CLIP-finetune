@@ -1,6 +1,12 @@
 # Abstract
 
-This is CLIP finetune prototype for image Classification task.
+This is CLIP finetune model for image Classification task.
+
+## About CLIP
+<img src="https://github.com/madara-tribe/CLIP-finetune/assets/48679574/170d1b6f-0738-4932-8409-656dd17354d8" width="600px" height="400px"/>
+
+## CLIP Accuracy
+<img src="https://github.com/madara-tribe/CLIP-finetune/assets/48679574/b8714835-5ea5-42b4-9f42-993376099f81" width="600px" height="400px"/>
 
 
 # Perfomance
