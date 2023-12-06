@@ -1,5 +1,5 @@
 IMAGE=clip
-HOME=/home/tatsuyahagiwara
+HOME=/home/app
 run:
 	docker build -t ${IMAGE} .
 in:
