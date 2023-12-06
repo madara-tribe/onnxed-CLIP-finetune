@@ -19,7 +19,7 @@ Cfg.SCALE_SIZE = [0, 30]
 Cfg.lr = 1e-5
 
 ## dataset
-ROOT = "../place/conchita/datasets/fainal_proto/brand_ec_classes" #"datasets/dataset"
+ROOT = "../datasets/classes" #"datasets/dataset"
 Cfg.num_class = 10
 Cfg.root_train = os.path.join(ROOT, 'train/*/*.jpg')
 Cfg.root_valid = os.path.join(ROOT, 'valid/*/*.jpg')
