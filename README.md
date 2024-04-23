@@ -45,5 +45,5 @@ Prediction took 1.01 seconds
 # References
 - [clip logic](https://arxiv.org/pdf/2103.00020.pdf)
 - [kaggle](https://www.kaggle.com/code/zacchaeus/clip-finetune)
-- [CLIP Onnx](https://www.kaggle.com/code/ivanpan/pytorch-clip-onnx-to-speed-up-inference)
+- [CLIP Onnx](https://github.com/Lednik7/CLIP-ONNX)
 - [OpenAI-CLIP](https://github.com/openai/CLIP)
