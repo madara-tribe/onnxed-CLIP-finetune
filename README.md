@@ -26,8 +26,9 @@ python3 main.py --mode train (-w <weight path>)
 python3 main.py --mode eval -w <weight path>
 ```
 
-## ONNX convert (test step)
+# ONNX convert and inference 
 ```bash
+# convert
 python3 onnx_export.py
 ```
 
