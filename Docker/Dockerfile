@@ -1,7 +1,9 @@
-ARG CUDA=11.2.0
+ARG CUDA=11.4.3
+ARG CUDNN=8
 ARG UBUNTU=20.04
-#FROM nvidia/cuda:${CUDA}-devel-ubuntu${UBUNTU}
-FROM nvidia/cuda:11.0.3-cudnn8-devel-ubuntu20.04
+FROM nvidia/cuda:${CUDA}-cudnn${CUDNN}-devel-ubuntu${UBUNTU}
+#ARG CUDA=11.2.0
+#ARG UBUNTU=20.04
 ENV TZ=Asia/Tokyo
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 WORKDIR /home/app
