@@ -7,7 +7,6 @@ import torch
 from cfg import Cfg
 import clip
 
-cfg = Cfg
 path = 'test.jpg'
 weight_path = 'checkpoints/173_0.0_model.pth'
 
